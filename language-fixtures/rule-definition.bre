@@ -1,0 +1,4 @@
+Rule whitelisted: user_id in [1234, 5678]
+Rule rollouted: user_id ends with [0, 1]
+
+Rule main: whitelisted or rollouted

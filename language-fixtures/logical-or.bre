@@ -1,0 +1,1 @@
+Rule main: user_id is 1234 or user_id ends with 1

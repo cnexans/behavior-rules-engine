@@ -1,0 +1,1 @@
+Rule main: user_id ends with [0,1]

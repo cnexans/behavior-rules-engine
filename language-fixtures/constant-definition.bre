@@ -1,0 +1,2 @@
+Const allowed_users = [1234, 6789]
+Rule main: user_id in allowed_users
