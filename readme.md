@@ -44,14 +44,6 @@ Example:
 
 ### Operators
 
-##### Not
-
-Usually used to create blacklists.
-
-> Rule myBlacklistRule: user_id not in [123,456]
-
-This rule will evaluate to true if user_id is not 123 or 456, so that the blacklist in this case will include those values.
-
 ##### Equals
 
 Does equality comparision between two values, constants or variables.
@@ -63,6 +55,14 @@ Does equality comparision between two values, constants or variables.
 Evaluates to true if the given variable is in a list. This is usually used for whitelists.
 
 > Rule myWhitelist: user_id in [123,456]
+
+##### Not in
+
+Usually used to create blacklists.
+
+> Rule myBlacklistRule: user_id not in [123,456]
+
+This rule will evaluate to true if user_id is not 123 or 456, so that the blacklist in this case will include those values.
 
 ##### Ends with
 
