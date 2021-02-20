@@ -1,0 +1,1 @@
+Rule main: user_id not in [1234, 5678]

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./build",
+    "allowJs": true,
+    "importHelpers": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "noResolve": true,
+    "strictPropertyInitialization": false,
+    "moduleResolution": "node",
+    "noImplicitAny": false
+  }
+}
